@@ -44,6 +44,16 @@ Technical Details:
 
 * Algo = Pure Skein (double skein) Bruce Schneier is a lumberjack and NSA didn't choose this algo.
 
+## Binary Wallets
+
+Some binaries are stored at the following:  
+https://github.com/woodcoin-core/woodcoin-linux  
+https://github.com/woodcoin-core/woodcoin-windows  
+https://github.com/woodcoin-core/woodcoin-mac  
+https://github.com/woodcoin-core/woodcoin-android  
+https://github.com/woodcoin-core/woodcoin-ios  
+We try to keep Woodcoin accessible to all. 
+
 =============================================
 Build Instructions
 
@@ -58,7 +68,7 @@ sudo apt-get install git build-essential libboost-all-dev libssl-dev qt-sdk libd
 
 Get the source with this command:
 
-git clone https://github.com/funkshelper/woodcoin.git
+git clone https://github.com/woodcoin-core/woodcoin.git
 
 To build woodcoin-qt issue “qmake” and then “make“.  qt4 is required, on some systems you may need to issue “export QT_SELECT=qt4” to ensure the proper version is used.
 
